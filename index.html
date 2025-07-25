@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Projects</h1>
+        <div class="projects-container">
+            <div class="project-section">
+                <h2>Active</h2>
+                <div class="project-list" id="active-projects">
+                    <div class="project-card" draggable="true">Project A</div>
+                    <div class="project-card" draggable="true">Project B</div>
+                </div>
+            </div>
+            <div class="project-section">
+                <h2>Launched</h2>
+                <div class="project-list" id="launched-projects">
+                    <div class="project-card" draggable="true">Project C</div>
+                </div>
+            </div>
+            <div class="project-section">
+                <h2>Archived</h2>
+                <div class="project-list" id="archived-projects">
+                    <div class="project-card" draggable="true">Project D</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
