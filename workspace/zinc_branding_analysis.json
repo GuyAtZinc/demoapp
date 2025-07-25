@@ -1,0 +1,287 @@
+{
+  "website_analyzed": "https://www.zincdigital.com/",
+  "analysis_date": "2024-12-19",
+  "brand_overview": {
+    "company_name": "Zinc Digital",
+    "tagline": "Digital Marketing Northampton | Web Design, SEO & PPC",
+    "brand_personality": "Modern, Professional, Tech-Forward, Creative",
+    "design_philosophy": "Clean minimalism with vibrant accents"
+  },
+  "color_palette": {
+    "primary_brand_colors": {
+      "deep_blue": {
+        "hex": "#020381",
+        "rgb": "rgb(2, 3, 129)",
+        "usage": "Primary brand color, headers, key CTAs",
+        "psychological_impact": "Trust, professionalism, stability"
+      },
+      "purple": {
+        "hex": "#9778d1",
+        "rgb": "rgb(151, 120, 209)",
+        "usage": "Secondary brand accent, highlights",
+        "psychological_impact": "Creativity, innovation, premium"
+      },
+      "bright_yellow": {
+        "hex": "#fef84c",
+        "rgb": "rgb(254, 248, 76)",
+        "usage": "Accent color, call-to-action highlights",
+        "psychological_impact": "Energy, optimism, attention-grabbing"
+      }
+    },
+    "secondary_colors": {
+      "light_blue_gray": "#abb8c3",
+      "mint_green": "#b6e3d4",
+      "teal": "#8ed"
+    },
+    "utility_colors": {
+      "white": "rgba(255,255,255,1)",
+      "light_overlay": "rgba(0,0,0,.06)",
+      "accent_orange": "#fec",
+      "dark_teal": "#33a"
+    },
+    "implementation_guidelines": {
+      "primary_ratio": "60% deep blue (#020381)",
+      "secondary_ratio": "30% supporting colors",
+      "accent_ratio": "10% bright yellow (#fef84c)",
+      "contrast_requirements": "WCAG AA compliant",
+      "background_preferences": "White with subtle overlays"
+    }
+  },
+  "typography": {
+    "primary_font_stack": {
+      "family": "Museo Sans",
+      "fallbacks": [
+        "museo-sans",
+        "sans-serif"
+      ],
+      "characteristics": "Modern, clean, highly legible",
+      "usage": "Headers, body text, UI elements"
+    },
+    "font_specifications": {
+      "font_weights_available": [
+        "700",
+        "bolder",
+        "inherit",
+        "700 !important",
+        "300",
+        "900",
+        "500"
+      ],
+      "font_sizes_detected": [
+        "32px",
+        "var(--wp--preset--font-size--small) !important",
+        "1.125em",
+        "2em",
+        "inherit",
+        "48px",
+        "16px",
+        "36px",
+        "22px",
+        "1.5em",
+        "14px",
+        "100%",
+        "var(--wp--preset--font-size--medium) !important",
+        "28px",
+        "var(--wp--preset--font-size--x-large) !important",
+        "var(--wp--preset--font-size--large) !important"
+      ],
+      "hierarchy_approach": "Clear size differentiation for content hierarchy"
+    },
+    "implementation_guidelines": {
+      "heading_font": "Museo Sans, sans-serif",
+      "body_font": "Museo Sans, sans-serif",
+      "font_loading": "Web font with system fallbacks",
+      "line_height_ratio": "1.4-1.6 for readability"
+    }
+  },
+  "layout_patterns": {
+    "grid_system": {
+      "approach": "Flexible container-based",
+      "max_width": "Responsive containers",
+      "breakpoints": "Mobile-first responsive design"
+    },
+    "spacing_system": {
+      "margins": [
+        "0 .07em !important",
+        ".67em 0",
+        "0"
+      ],
+      "padding": [
+        "calc(.667em + 2px) calc(1.333em + 2px)",
+        "15px 15px",
+        "0",
+        "0 !important"
+      ],
+      "consistent_rhythm": "8px base unit system recommended"
+    },
+    "component_layout": {
+      "buttons": {
+        "count_found": 18,
+        "border_radius": [
+          "9999px !important",
+          "999px",
+          "0",
+          "4px",
+          "8px",
+          "9999px"
+        ],
+        "style_approach": "Rounded corners, solid fills"
+      },
+      "cards": {
+        "count_found": 2,
+        "elevation": "Subtle shadows for depth"
+      },
+      "containers": {
+        "count_found": 23,
+        "max_widths": [
+          "40px",
+          "1600px){.container{max-width:1600px",
+          "1920px){.container{max-width:1920px",
+          "480px){.home-buttons{top:200px",
+          "55px",
+          "1366px){.container{padding-left:100px",
+          "1280px){.container{max-width:1280px",
+          "768px){.home .banner{height:400px",
+          "1600px){.container{padding-left:140px",
+          "480px){#sb_instagram.sbi_col_4 #sbi_images .sbi_item{width:50%",
+          "280px",
+          "320px",
+          "2px",
+          "1600px){.xxl\\:w-9\\/12{width:75%",
+          "1em !important",
+          "1024px){.home .banner{height:600px",
+          "1366px){.container{max-width:1366px",
+          "768px){.container{max-width:768px",
+          "200px){.home .banner{height:auto",
+          "1024px){.md\\:block{display:block",
+          "768px){.sm\\:block{display:block",
+          "480px){.xs\\:flex-row{flex-direction:row",
+          "100%",
+          "1024px){.container{padding-left:60px",
+          "1024px){.container{max-width:1024px",
+          "768px){.container{padding-left:40px",
+          "767px){.heading{font-size:28px",
+          "1024px){.mob-link--fixed{display:none",
+          "480px){.container{max-width:480px",
+          "11px",
+          "0",
+          "auto",
+          "1280px){.heading{font-size:32px",
+          "1200px){.container{max-width:1200px",
+          "767px){.mega .mega-footer{height:100px",
+          "1023px){.mega{display:flex",
+          "1280px){.lg\\:mr-5{margin-right:25px",
+          "1366px){.xl\\:mr-6{margin-right:30px",
+          "1023px){.pt-60{padding-top:30px",
+          "100vw",
+          "360px",
+          "100% !important",
+          "2px !important"
+        ]
+      }
+    }
+  },
+  "visual_effects": {
+    "shadows": {
+      "box_shadows": [
+        "0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)",
+        "0px 0px 12px rgba(0,0,0,.3)",
+        "none !important",
+        "none"
+      ],
+      "usage": "Subtle elevation for cards and buttons",
+      "style": "Soft, minimal depth"
+    },
+    "borders": {
+      "border_radius": [
+        "9999px !important",
+        "999px",
+        "0",
+        "4px",
+        "8px",
+        "9999px"
+      ],
+      "approach": "Consistent rounded corners"
+    },
+    "animations": {
+      "transitions": [],
+      "approach": "Subtle, performance-optimized"
+    }
+  },
+  "component_specifications": {
+    "buttons": {
+      "primary_button": {
+        "background_color": "#020381",
+        "text_color": "#ffffff",
+        "border_radius": "4-8px",
+        "padding": "12px 24px",
+        "font_weight": "medium",
+        "hover_effect": "Slight opacity or color shift"
+      },
+      "secondary_button": {
+        "background_color": "transparent",
+        "border": "2px solid #020381",
+        "text_color": "#020381",
+        "hover_effect": "Fill with brand color"
+      },
+      "accent_button": {
+        "background_color": "#fef84c",
+        "text_color": "#020381",
+        "usage": "High-priority CTAs"
+      }
+    },
+    "navigation": {
+      "header_style": "Clean, minimal",
+      "logo_placement": "Left-aligned",
+      "menu_style": "Horizontal, text-based",
+      "mobile_approach": "Hamburger menu recommended"
+    },
+    "cards": {
+      "background": "#ffffff",
+      "border": "None or subtle",
+      "shadow": "0 2px 8px rgba(0,0,0,0.1)",
+      "border_radius": "8px",
+      "padding": "24px"
+    }
+  },
+  "implementation_guidelines": {
+    "css_framework_compatibility": "Works with Tailwind, Bootstrap, or custom CSS",
+    "responsive_approach": "Mobile-first design",
+    "accessibility": "WCAG AA compliance required",
+    "performance": "Optimize for Core Web Vitals",
+    "browser_support": "Modern browsers (IE11+ if needed)"
+  },
+  "app_specific_recommendations": {
+    "sitemap_designer": {
+      "node_colors": {
+        "parent_pages": "#020381",
+        "child_pages": "#9778d1",
+        "highlighted_paths": "#fef84c"
+      },
+      "connection_lines": "#abb8c3",
+      "background": "#ffffff with subtle grid"
+    },
+    "wireframe_tools": {
+      "element_colors": {
+        "containers": "#abb8c3",
+        "text_blocks": "#020381",
+        "images": "#b6e3d4",
+        "buttons": "#fef84c"
+      },
+      "annotation_color": "#9778d1"
+    },
+    "ui_components": {
+      "toolbar_background": "#ffffff",
+      "panel_backgrounds": "#f8f9fa",
+      "active_states": "#020381",
+      "hover_states": "#9778d1"
+    }
+  },
+  "brand_consistency_rules": {
+    "logo_usage": "Maintain clear space equal to logo height",
+    "color_combinations": "Ensure 4.5:1 contrast ratio minimum",
+    "typography_hierarchy": "Maximum 3-4 font sizes for clarity",
+    "spacing_consistency": "Use 8px grid system",
+    "component_reusability": "Create consistent component library"
+  }
+}

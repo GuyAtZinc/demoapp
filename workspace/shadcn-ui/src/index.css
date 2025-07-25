@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Zinc Digital Brand Colors */
+    --zinc-deep-blue: 2 3 129;
+    --zinc-purple: 151 120 209;
+    --zinc-bright-yellow: 254 248 76;
+    --zinc-light-blue-gray: 171 184 195;
+    --zinc-mint-green: 182 227 212;
+    --zinc-teal: 136 238 221;
+    
+    --background: 0 0% 100%;
+    --foreground: var(--zinc-deep-blue);
+    --card: 0 0% 100%;
+    --card-foreground: var(--zinc-deep-blue);
+    --popover: 0 0% 100%;
+    --popover-foreground: var(--zinc-deep-blue);
+    --primary: var(--zinc-deep-blue);
+    --primary-foreground: 0 0% 98%;
+    --secondary: var(--zinc-purple);
+    --secondary-foreground: 0 0% 98%;
+    --muted: 210 40% 98%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: var(--zinc-bright-yellow);
+    --accent-foreground: var(--zinc-deep-blue);
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: var(--zinc-deep-blue);
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', 'Museo Sans', sans-serif;
+  }
+}
+
+/* Custom styles for drag and drop */
+.dragging {
+  @apply opacity-50 transform rotate-2;
+}
+
+.drop-zone-active {
+  @apply border-2 border-dashed border-primary bg-primary/5;
+}
+
+.sitemap-node {
+  @apply transition-all duration-200 hover:shadow-lg;
+}
+
+.wireframe-element {
+  @apply border-2 border-dashed border-gray-300 hover:border-primary transition-colors;
+}
+
+.canvas-grid {
+  background-image: 
+    linear-gradient(rgba(171, 184, 195, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(171, 184, 195, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Component-specific styles */
+.toolbar-panel {
+  @apply bg-white border-r border-gray-200 shadow-sm;
+}
+
+.properties-panel {
+  @apply bg-gray-50 border-l border-gray-200;
+}
+
+.canvas-area {
+  @apply bg-white;
+}
+
+/* Scrollbar styling */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(171, 184, 195, 0.5) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(171, 184, 195, 0.5);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(171, 184, 195, 0.7);
+}
